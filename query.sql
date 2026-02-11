@@ -66,9 +66,6 @@ ALTER TABLE news
 RENAME COLUMN email TO summary;
 
 ALTER TABLE news
-MODIFY description TEXT;
-
-ALTER TABLE news
 ADD category_id BIGINT UNSIGNED;
 
 -- Slide 102 - 106: Join Tables
